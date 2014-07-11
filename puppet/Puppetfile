@@ -1,4 +1,4 @@
-# Add librarian-puppet config here	
 forge "http://forge.puppetlabs.com"
 
-# mod "puppetlabs/apt", "1.5.1"
+mod "willdurand/nodejs", "1.6.2"
+mod "puppetlabs/mongodb", "0.7.0"

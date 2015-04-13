@@ -1,5 +1,6 @@
 class {'nodejs':
-	version	=> 'v0.10.28'
+	version				=> 'v0.12.2',
+	make_install	=> false
 }
 
 package {'grunt-cli':

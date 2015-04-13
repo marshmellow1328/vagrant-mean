@@ -13,8 +13,9 @@ function install_git() {
 function install_librarian_puppet() {
   if [ `gem search -i librarian-puppet` != true ]; then
     echo 'Installing librarian-puppet'
+		apt-get -q -y install ruby-dev
     mkdir -p /etc/puppet
-    gem install librarian-puppet -v 1.0.3
+    gem install librarian-puppet -v 2.1.0
   fi
 }
 
